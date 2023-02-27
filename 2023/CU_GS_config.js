@@ -6,24 +6,24 @@ var config_data = `
   "checkboxAs": "10",
   "prematch": [
     { "name": "Scouter Initials",
-      "code": "s",
       "gsCol": "scouter",
+      "code": "s",
       "type": "scouter",
       "size": 5,
       "maxSize": 5,
       "required": "true"
     },
     { "name": "Event",
-      "code": "e",
       "gsCol": "event",
+      "code": "e",
       "type": "event",
       "defaultValue": "2020ilch",
       "required": "true",
       "disabled": "true"
     },
     { "name": "Match Level",
-      "code": "l",
       "gsCol": "level",
+      "code": "l",
       "type": "level",
       "choices": {
         "qm": "Quals<br>",
@@ -34,16 +34,16 @@ var config_data = `
       "required": "true"
     },
     { "name": "Match #",
-      "code": "m",
       "gsCol": "matchNum",
+      "code": "m",
       "type": "match",
       "min": 1,
       "max": 100,
       "required": "true"
     },
     { "name": "Robot",
-      "code": "r",
       "gsCol": "robot",
+      "code": "r",
       "type": "robot",
       "choices": {
         "r1": "Red-1",
@@ -56,15 +56,15 @@ var config_data = `
       "required":"true"
     },
     { "name": "Team #",
-      "code": "t",
       "gsCol": "teamNum",
+      "code": "t",
       "type": "team",
       "min": 1,
       "max": 99999
     },
     { "name": "Auto Start Position",
-      "code": "as",
       "gsCol": "autoStartPosition",
+      "code": "as",
       "type": "field_image",
       "filename": "2023/field_image.png",
       "clickRestriction": "one",
@@ -73,8 +73,8 @@ var config_data = `
   ],
   "auton": [
     { "name": "Auto Scoring",
-      "code": "asg",
       "gsCol": "autoScoringGrid",
+      "code": "asg",
       "type": "clickable_image",
       "filename": "2023/grid_image.png",
       "dimensions": "9 4",
@@ -85,23 +85,23 @@ var config_data = `
       "shape": "circle 12 black red true"
     },
     { "name": "Crossed Cable",
-      "code": "acc",
       "gsCol": "autoCrossedCable",
+      "code": "acc",
       "type": "bool"
     },
     { "name": "Crossed Charging Station",
-      "code": "acs",
       "gsCol": "autoCrossedChargingStation",
+      "code": "acs",
       "type": "bool"
     },
     { "name": "Mobility?",
-      "code": "am",
       "gsCol": "autoMobility",
+      "code": "am",
       "type": "bool"
     },
     { "name": "Docked",
-      "code": "ad",
       "gsCol": "autoDocked",
+      "code": "ad",
       "type":"radio",
       "choices": {
         "d": "Docked (not Engaged)<br>",
@@ -114,13 +114,13 @@ var config_data = `
   ],
   "teleop": [
     { "name": "Cycle Timer",
-      "code": "tct",
       "gsCol": "cycleTimes",
+      "code": "tct",
       "type": "cycle"
     },
     { "name": "Grid Scoring",
-      "code": "tsg",
       "gsCol": "gridScoring",
+      "code": "tsg",
       "type": "clickable_image",
       "filename": "2023/grid_image.png",
       "dimensions": "9 4",
@@ -132,8 +132,8 @@ var config_data = `
       "cycleTimer": "tct"
     },
     { "name": "Feeder Count<br>(Fed another bot)",
-      "code": "tfc",
       "gsCol": "feedCount",
+      "code": "tfc",
       "type": "counter"
     },
     { "name": "Was Defended",
