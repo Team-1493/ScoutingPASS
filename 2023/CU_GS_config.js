@@ -1,9 +1,9 @@
 var config_data = `
 {
+  "enable_google_sheets": "true",
   "title": "1493 scouting thing",
   "page_title": "Charged Up",
   "checkboxAs": "10",
-  "enable_google_sheets": "true",
   "prematch": [
     { "name": "Scouter Initials",
       "code": "s",
