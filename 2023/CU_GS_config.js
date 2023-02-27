@@ -137,23 +137,23 @@ var config_data = `
       "type": "counter"
     },
     { "name": "Was Defended",
-      "code": "wd",
       "gsCol": "wasDefended",
+      "code": "wd",
       "type": "bool"
     },
     { "name": "Who Defended this bot<br>(Team #)",
-      "code": "who",
       "gsCol": "defenderTeamNum",
+      "code": "who",
       "type": "text"
     },
     { "name": "Smart Placement<br>(creates Links)",
-      "code": "lnk",
       "gsCol": "smartPlacement",
+      "code": "lnk",
       "type": "bool"
     },
     { "name": "Floor Pick UP",
-      "code": "fpu",
       "gsCol": "floorPickUp",
+      "code": "fpu",
       "type": "radio",
       "choices": {
         "o": "Cone<br>",
@@ -166,13 +166,13 @@ var config_data = `
   ],
   "endgame": [
     { "name": "Docking Timer",
-      "code": "dt",
       "gsCol": "dockingTime",
+      "code": "dt",
       "type": "timer"
     },
     { "name": "Final Status",
-      "code": "fs",
       "gsCol": "endgameStatus",
+      "code": "fs",
       "type":"radio",
       "choices": {
         "p": "Parked<br>",
@@ -184,15 +184,15 @@ var config_data = `
       "defaultValue": "x"
     },
     { "name": "Total # of alliance<br>robots docked/engaged",
-      "code": "dn",
       "gsCol": "numOfRobotsDocked",
+      "code": "dn",
       "type": "counter"
     }
   ],
   "postmatch": [
     { "name": "Driver Skill",
-      "code": "ds",
       "gsCol": "driverSkill",
+      "code": "ds",
       "type": "radio",
       "choices": {
         "n": "Not Effective<br>",
@@ -203,13 +203,13 @@ var config_data = `
       "defaultValue": "x"
     },
     { "name": "Links Scored",
-      "code": "ls",
       "gsCol": "linksScored",
+      "code": "ls",
       "type": "counter"
     },
     { "name": "Defense Rating",
-      "code": "dr",
       "gsCol": "defenseRating",
+      "code": "dr",
       "type": "radio",
       "choices": {
         "b": "Below Average<br>",
@@ -221,13 +221,13 @@ var config_data = `
       "defaultValue": "x"
     },
     { "name": "Swerve drive?",
-      "code": "sd",
       "gsCol": "swerveDrive",
+      "code": "sd",
       "type": "bool"
     },
     { "name": "Speed Rating",
-      "code": "sr",
       "gsCol": "speedRating",
+      "code": "sr",
       "type": "radio",
       "choices": {
         "1": "1 (slow)<br>",
@@ -239,29 +239,29 @@ var config_data = `
       "defaultValue":"3"
     },
     { "name": "Died/Immobilized",
-      "code": "die",
       "gsCol": "diedOrImmobilized",
+      "code": "die",
       "type": "bool"
     },
     { "name": "Tippy<br>(almost tipped over)",
-      "code": "tip",
       "gsCol": "tippy",
+      "code": "tip",
       "type": "bool"
     },
     { "name": "Dropped Cones (>2)",
-      "code": "dc",
       "gsCol": "droppedCones",
+      "code": "dc",
       "type": "bool"
     },
     { "name": "Make good<br>alliance partner?",
+      "gsCol": "goodPartners",
       "tooltip": "Would you want this robot on your alliance in eliminations?",
       "code": "all",
-      "gsCol": "goodPartners",
       "type": "bool"
     },
     { "name": "Comments",
-      "code": "co",
       "gsCol": "comments",
+      "code": "co",
       "type": "text",
       "size": 15,
       "maxSize": 50
