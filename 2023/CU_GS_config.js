@@ -17,7 +17,7 @@ var config_data = `
       "gsCol": "event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2020ilch",
+      "defaultValue": "2023nytr",
       "required": "true",
       "disabled": "true"
     },
